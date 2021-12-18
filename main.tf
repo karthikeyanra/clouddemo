@@ -9,7 +9,7 @@ provider "aws" {
 
 
 
-module "demoapachewebserver" "myserver" {
+module "demoapachewebserver" {
   source  = "karthikeyanra/demoapachewebserver/aws"
   version = "1.0.0"
   owner=var.ownername
