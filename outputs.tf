@@ -1,4 +1,4 @@
 output "WebServerPublicIP" {
 
-	value=module.demowebserver.PublicIP
+	value=module.demoapachewebserver.PublicIP
 }
